@@ -14,7 +14,7 @@ namespace Debaters.Models
         }
         public override void FetchNewNumber(object sender, NewNumbertronNumberArgs args)
         {
-            if(args.Number % 2 == 0)
+            if(args.Number.IsEven())
                 Score += 1;
         }
     }

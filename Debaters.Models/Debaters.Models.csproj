@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IntExtensions.cs" />
     <Compile Include="Gambler.cs" />
     <Compile Include="Jay.cs" />
     <Compile Include="NewNumbertronNumberArgs.cs" />

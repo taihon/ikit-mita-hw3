@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Debaters.Models
 {
-    public class Class1
+    public static class IntExtensions
     {
+        public static bool IsEven(this int number)
+        {
+            return number % 2 == 0;
+        }
     }
 }
