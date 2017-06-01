@@ -9,7 +9,7 @@ namespace Debaters.Models
     public abstract class Gambler
     {
         public string Name { get; }
-        public int Score { get; internal set; }
+        public int Score { get; protected set; }
         public Gambler(string name)
         {
             Name = name;
